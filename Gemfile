@@ -45,3 +45,7 @@ group :development do
   gem 'spring'
 end
 
+## Add by yhayashi
+# Use omniauth for Twitter
+gem 'omniauth'
+gem 'omniauth-twitter'
