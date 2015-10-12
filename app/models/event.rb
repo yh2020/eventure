@@ -6,7 +6,7 @@ class Event < ActiveRecord::Base
   validates :end_time, presence: true
   validate :start_time_should_be_before_end_time
 
-  privete
+  private
 
   def start_time_should_be_before_end_time
     return unless start_time && end_time
