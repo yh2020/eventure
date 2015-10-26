@@ -49,3 +49,5 @@ end
 # Use omniauth for Twitter
 gem 'omniauth'
 gem 'omniauth-twitter'
+gem 'kaminari', '~> 0.15.1'
+gem 'kaminari-bootstrap', '~> 3.0.1'
